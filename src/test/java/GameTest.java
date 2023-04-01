@@ -37,4 +37,11 @@ public class GameTest {
 
         assertEquals(519f, game.getGameValue());
     }
+
+    @Test
+    void shouldReturnBaseGameWithSeasonPassPlusWinterDLCValue() {
+        Game game = new SeasonPass(new WinterDLC(new BaseGame(300f)));
+
+        assertEquals(469f, game.getGameValue());
+    }
 }
