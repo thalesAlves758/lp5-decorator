@@ -1,4 +1,4 @@
-# Prototype
+# Decorator
 <div>
   <p>O presente repositório é dedicado a aplicar os conhecimentos adquiridos em sala de aula a respeito do Padrão de Projeto conhecido como Decorator. O contexto pensado para aplicar este padrão foi o seguinte:</p>
 
